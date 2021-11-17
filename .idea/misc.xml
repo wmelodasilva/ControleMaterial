@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/wmelo/AndroidStudioProjects/ControleMaterial/app/src/main/res/drawable/bg_collor_normal.xml" value="0.1" />
+        <entry key="..\:/Users/wmelo/AndroidStudioProjects/ControleMaterial/app/src/main/res/drawable/bg_layer_gradient.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/wmelo/AndroidStudioProjects/ControleMaterial/app/src/main/res/drawable/cadatro_button.xml" value="0.2203125" />
+        <entry key="..\:/Users/wmelo/AndroidStudioProjects/ControleMaterial/app/src/main/res/drawable/colortxt.xml" value="0.20277777777777778" />
+        <entry key="..\:/Users/wmelo/AndroidStudioProjects/ControleMaterial/app/src/main/res/drawable/fichacolor.xml" value="0.2203125" />
+        <entry key="..\:/Users/wmelo/AndroidStudioProjects/ControleMaterial/app/src/main/res/drawable/gb_button_collor.xml" value="0.2046875" />
+        <entry key="..\:/Users/wmelo/AndroidStudioProjects/ControleMaterial/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="..\:/Users/wmelo/AndroidStudioProjects/ControleMaterial/app/src/main/res/layout/activity_consultade_material.xml" value="0.25" />
+        <entry key="..\:/Users/wmelo/AndroidStudioProjects/ControleMaterial/app/src/main/res/layout/activity_consultade_material_material.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/wmelo/AndroidStudioProjects/ControleMaterial/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/wmelo/AndroidStudioProjects/ControleMaterial/app/src/main/res/layout/activity_tela_cadastro.xml" value="0.25" />
+        <entry key="..\:/Users/wmelo/AndroidStudioProjects/ControleMaterial/app/src/main/res/layout/activity_tela_opcoes.xml" value="0.25" />
+        <entry key="..\:/Users/wmelo/AndroidStudioProjects/ControleMaterial/app/src/main/res/layout/content_main.xml" value="0.1734375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

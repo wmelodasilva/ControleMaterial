@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_layer_gradient"
+    android:layout_height="match_parent"
+    tools:context=".TelaCadastro">
+
+    <ImageView
+        android:id="@+id/logoCEMI"
+        android:layout_width="203dp"
+        android:layout_height="141dp"
+        android:src="@drawable/cemilogo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <TextView
+        android:id="@+id/CadastroEconsulta"
+        android:layout_width="210dp"
+        android:layout_height="135dp"
+        android:text="Cadastro e consulta"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="3dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/logoGDF"
+        android:layout_width="414dp"
+        android:layout_height="156dp"
+        android:src="@drawable/gdf_jpg"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="572dp" />
+
+    <TextView
+        android:id="@+id/NumeroDescription"
+        android:layout_width="235dp"
+        android:layout_height="35dp"
+        android:text="Número do Patrimônio"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <TextView
+        android:id="@+id/NomeDescription"
+        android:layout_width="235dp"
+        android:layout_height="35dp"
+        android:text="Nome do Patrimônio"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <TextView
+        android:id="@+id/DescriptionNamed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DESCRIÇÃO PATRIMÔNIO"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold|normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="370dp" />
+
+    <EditText
+        android:id="@+id/textodesscription"
+        android:layout_width="337dp"
+        android:layout_height="79dp"
+        android:backgroundTint="#171717"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <View
+        android:id="@+id/description"
+        android:layout_width="364dp"
+        android:layout_height="107dp"
+        android:background="#979797"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <Button
+        android:id="@+id/buttonFinalizar"
+        android:layout_width="203dp"
+        android:layout_height="41dp"
+        android:background="@drawable/bg_collor_normal"
+        android:text="FINALIZAR CADASTRO"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="518dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/NumeroPrDescription"
+        android:layout_width="342dp"
+        android:layout_height="34dp"
+        android:background="@drawable/fichacolor"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="216dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/NumeroPRnumber"
+        android:layout_width="324dp"
+        android:layout_height="26dp"
+        android:background="@drawable/fichacolor"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="219dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/NomePrDiscription"
+        android:layout_width="348dp"
+        android:layout_height="42dp"
+        android:background="@drawable/fichacolor"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <TextView
+        android:id="@+id/NomePrname"
+        android:layout_width="318dp"
+        android:layout_height="34dp"
+        android:background="@drawable/fichacolor"
+        android:inputType="text"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
